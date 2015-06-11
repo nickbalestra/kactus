@@ -1,0 +1,12 @@
+<ul id="post-list">
+    {% for post in paginator.posts %}
+        <li>
+            <a href='{{ post.url }}'><aside class="dates">{{ post.date | date:"%b %d" }}</aside></a>
+            <a href='{{ post.url }}'>{{ post.title }} <h2>{{ post.description }}</h2></a>
+        </li>
+    {% endfor %}
+</ul>
+
+{% if paginator.previous_page or paginator.next_page %}
+    {% include pagination.html %}
+{% endif %}

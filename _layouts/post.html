@@ -1,0 +1,51 @@
+---
+layout: default
+disqus: false
+archive: true
+---
+
+<article class="post">
+    <header>
+        <h1>{{ page.title }}</h1>
+        <h2 class="headline">{{ page.date | date:"%B %-d, %Y" }}</h2>
+    </header>
+    <section id="post-body">
+        {{content}}
+    </section>
+</article>
+<footer id="post-meta" class="clearfix">
+    <a href="http://twitter.com/{{ site.authorTwitter }}">
+        <img class="avatar" src="/assets/images/avatar.png">
+        <div>
+            <span class="dark">{{ site.author }}</span>
+            <span>{{ site.description }}</span>
+        </div>
+    </a>
+
+    <section id="sharing">
+        {% include share.html %}
+    </section>
+</footer>
+
+<!-- Disqus comments -->
+{% if page.disqus %}
+    <div class="archive readmore">
+        <h3>Comments</h3>
+        {% include disqus.html %}
+    </div>
+{% endif %}
+
+<!-- Archive post list -->
+{% if page.archive %}
+    <ul id="post-list" class="archive readmore">
+        <h3>Read more</h3>
+        {% for post in site.posts %}
+            <li>
+                <a href="{{ post.url }}">{{ post.title }}<aside class="dates">{{ post.date | date:"%b %d" }}</aside></a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endif %}
+
+
+

@@ -1,0 +1,22 @@
+<nav id="post-nav">
+    {% if paginator.previous_page %}
+        <span class="prev">
+            {% if paginator.previous_page == 1 %}
+                <a href="/" title="Previous Page">
+                    <span class="arrow">←</span> Newer Posts
+                </a>
+            {% else %}
+                <a href="/page{{ paginator.previous_page }}/">
+                    <span class="arrow">←</span> Newer Posts
+                </a>
+            {% endif %}
+        </span>
+    {% endif %}
+    {% if paginator.next_page %}
+        <span class="next">
+            <a href="/page{{ paginator.next_page }}/">
+                Older Posts <span class="arrow">→</span>
+            </a>
+        </span>
+    {% endif %}
+</nav>
