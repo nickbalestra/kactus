@@ -24,10 +24,32 @@ Cactus theme includes:
 
 ## Screenshots
 
-![index page](https://raw.github.com/nickbalestra/kactus/master/assets/images/kactus-theme-index.png)
-![post page](https://raw.github.com/nickbalestra/kactus/master/assets/images/kactus-theme-post.png)
+![index page](https://raw.githubusercontent.com/nickbalestra/kactus/master/assets/images/Kactus-theme-index.png)
+![post page](https://raw.githubusercontent.com/nickbalestra/kactus/master/assets/images/Kactus-theme-post.png)
 
 
 ## Thanks
 Most of the work has been already done by the [Cactus for mac authors](https://github.com/koenbok/Cactus/blob/master/AUTHORS), I've just ported their default theme to Jekyll.
 I've also added few things specific to Jekyll and some minor style changes.
+
+## Copyright & License
+
+Copyright (c) 2015 Cactus Authors - https://github.com/koenbok/Cactus/blob/master/AUTHORS -  Released under the MIT License.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
