@@ -32,7 +32,7 @@ I've also added few things specific to Jekyll and some minor style changes.
 
 ## Copyright & License
 
-Copyright (c) 2015 Cactus Authors - https://github.com/koenbok/Cactus/blob/master/AUTHORS -  Released under the MIT License.
+Copyright (c) 2015 [Cactus Authors](https://github.com/koenbok/Cactus/blob/master/AUTHORS) -  Released under the MIT License.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
