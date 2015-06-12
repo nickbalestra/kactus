@@ -3,8 +3,6 @@
 This is a port of [Cactus](https://github.com/koenbok/Cactus)'s default theme for Jekyll.
 Feel free to fork, change, modify and re-use it.
 
-[demo](http://nick.balestra.ch)
-
 ## How to use it
 
 Simply clone this repository, and then run `jekyll serve` inside the directory.
