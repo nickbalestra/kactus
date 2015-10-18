@@ -4,7 +4,11 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <meta name="author" content="{{site.author}}">
+  <meta name="description" content="{% if page.description %}{{page.description}}{% else %}{{site.description}}{% endif %}">
+  {% if page.keywords %}
+    <meta name="keywords" content="{% for keyword in page.keywords %}{{keyword}},{% endfor %}">
+  {% endif %}
   <title>{{ site.name }}{% if page.title %} - {{ page.title }}{% endif %}</title>
   <link rel="shortcut icon" href="{{ site.baseurl }}assets/images/favicon.ico">
   <link rel="stylesheet" href="{{ site.baseurl }}assets/css/style.css">
