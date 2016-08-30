@@ -352,7 +352,7 @@ thead th,th {
 	white-space: nowrap;
 }
 
-img {
+img:not(.emoji) {
 	width: 100%;
 	max-width: 100%;
 	border-radius: 3px;
