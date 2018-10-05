@@ -40,3 +40,5 @@ defaults:
             type: drafts
         values:
             layout: post
+
+theme: jekyll-theme-cayman
