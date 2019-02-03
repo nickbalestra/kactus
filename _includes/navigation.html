@@ -3,7 +3,7 @@
         <a href="{{ "/" | relative_url  }}"> <span class="arrow">←</span> Home </a>
     {% endif %}
 
-    {% if page.url != "/about/" %}
+    {% if page.url != "/about/" and site.data.aboutPage %}
         <a href="{{ "/" | relative_url  }}about">About </a>
     {% endif %}
     <a class="cta" href="{{ "/" | relative_url  }}feed.xml">Subscribe</a>
