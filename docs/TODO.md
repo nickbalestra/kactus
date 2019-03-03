@@ -1,3 +1,2 @@
 # General
 
-- Install Jekyll locally.
