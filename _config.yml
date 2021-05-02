@@ -1,6 +1,6 @@
-name: Your New Jekyll Site
+name: HL's blogs
 description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+meta_description: "HL's New Jekyll Site, Blogging about stuffs"
 
 aboutPage: true
 
@@ -15,28 +15,28 @@ disqus: false
 disqus_shortname: 'your-disqus-shortname'
 
 # Details for the RSS feed generator
-url:            'http://your-blog-url.example.com'
-author:         'Your Name'
-authorTwitter:  'YourTwitterUsername'
+url:            "https://github.com/healimfx/healimfx.github.io.git"
+author:         'CHL'
+authorTwitter:  'HL'
 
 permalink:       /:year/:title/
 
 defaults:
     -
         scope:
-            path: "" # empty string for all files
+            path: "https://github.com/healimfx/healimfx.github.io.git" # empty string for all files
             type: pages
         values:
             layout: default
     -
         scope:
-            path: "" # empty string for all files
+            path: "https://github.com/healimfx/healimfx.github.io.git" # empty string for all files
             type: posts
         values:
             layout: post
     -
         scope:
-            path: ""
+            path: "https://github.com/healimfx/healimfx.github.io.git"
             type: drafts
         values:
             layout: post
